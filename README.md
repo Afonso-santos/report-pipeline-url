@@ -65,3 +65,8 @@ Wait a couple of seconds for the background workflow to finish, then check the s
 ```bash
 curl http://localhost:8787/case/<ID>
 ```
+
+
+
+## Future Work 
+For future iterations of this project, I would focus heavily on security and validation. Currently, the API lacks authentication, meaning unauthorized external users can call the endpoints. To resolve this, I would implement an API key verification system. Additionally, the pipeline is missing input validation; I need to ensure the system strictly checks that the submitted data is a valid URL before creating a case. Finally, regarding the workflow, I set the timeout for manual approval to one week. This was an educated guess on what makes sense for a human-in-the-loop process, but in the future, I would want to base that timeout value on actual real-world response times.
