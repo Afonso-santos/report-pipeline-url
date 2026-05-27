@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "my-workflow",
+	"name": "report-pipeline-url",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-05-27",
 	"observability": {
